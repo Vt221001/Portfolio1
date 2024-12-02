@@ -6,6 +6,7 @@ import Aradya from "../../Assets/Projects/Aradhya.png";
 import School from "../../Assets/Projects/School ERP.jpeg";
 import Employee from "../../Assets/Projects/Employee.png";
 import Dollar from "../../Assets/Projects/Dollar.jpeg";
+import Event from "../../Assets/Projects/Event.jpg";
 
 function Projects() {
   return (
@@ -21,7 +22,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Aradya}
+              imgPath={Event}
               isBlog={false}
               title="Efficient Event Solutions: Digital Pass Management for VIPs and Attendees
 "
