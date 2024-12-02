@@ -2,12 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
 import Aradya from "../../Assets/Projects/Aradhya.png";
 import School from "../../Assets/Projects/School ERP.jpeg";
-import suicide from "../../Assets/Projects/suicide.png";
 import Employee from "../../Assets/Projects/Employee.png";
 import Dollar from "../../Assets/Projects/Dollar.jpeg";
 
@@ -23,6 +19,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Aradya}
+              isBlog={false}
+              title="Efficient Event Solutions: Digital Pass Management for VIPs and Attendees
+"
+              description="I developed a high-performance digital pass management system for a two-day event at Rudraksha Convention Centre, Varanasi, attended by 3000+ VIPs, dignitaries, and global leaders. The system featured online and offline pass issuance, seamless entry verification, and WhatsApp integration for smooth access. This project showcases my ability to create scalable and secure digital solutions for large-scale events, addressing challenges like VIP data security and crowd management."
+              ghLink="https://github.com/HemantMedhsia/Aradhya_Tech_Solutions"
+              demoLink="https://mahasamagam.org"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Aradya}
