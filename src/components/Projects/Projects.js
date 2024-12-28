@@ -49,7 +49,7 @@ function Projects() {
               title="School ERP (SAAS)"
               description="I developed a Smart School SaaS Application using MERN technologies to streamline school management. It features role-based dashboards for administrators, teachers, students, and parents, along with dynamic student and result management, real-time attendance tracking, and scalability to support multiple schools on a centralized cloud-based platform."
               ghLink="https://github.com/HemantMedhsia/new_school_application_haryana"
-              demoLink="#"
+              demoLink="https://mainpage.vedanshtiwari.tech"
             />
           </Col>
 
