@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Aradya from "../../Assets/Projects/Aradhya.png";
 import School from "../../Assets/Projects/School ERP.jpeg";
 import Employee from "../../Assets/Projects/Employee.png";
+import task from "../../Assets/Projects/task.png";
 import Dollar from "../../Assets/Projects/Dollar.jpeg";
 import Pass from "../../Assets/Projects/pass.jpg";
 
@@ -50,6 +51,17 @@ function Projects() {
               description="I developed an Employee Management System for my IT company’s CRM, integrating real-time activity tracking to monitor productivity. It includes role-based access, task management, and an admin-employee chat system for smooth communication, showcasing my ability to build scalable and efficient systems for performance and workflow optimization."
               ghLink="https://github.com/Vt221001/employee_management"
               demoLink="https://emp.vedanshtiwari.tech"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={task}
+              isBlog={false}
+              title="Task Manager"
+              description="I developed a Task Management Application using Next.js with Server Actions and MongoDB for persistent storage. This app allows users to create, view, edit, and delete tasks, as well as mark tasks as complete or incomplete. Each task includes a title, description, and due date, with built-in error handling and smooth loading states for a better user experience. The project uses Tailwind CSS for responsive styling and is deployed live on Vercel"
+              ghLink="https://github.com/Vt221001/InternShipTask1"
+              demoLink="https://internshiptask1.vedanshtiwari.tech"
             />
           </Col>
 
