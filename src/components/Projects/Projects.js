@@ -8,6 +8,7 @@ import Employee from "../../Assets/Projects/Employee.png";
 import task from "../../Assets/Projects/task.png";
 import Dollar from "../../Assets/Projects/Dollar.jpeg";
 import Pass from "../../Assets/Projects/pass.jpg";
+import JobFind from "../../Assets/Projects/JobFinder.png";
 
 function Projects() {
   return (
@@ -45,7 +46,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Employee}
+              imgPath={JobFind}
               isBlog={false}
               title="Job Posting Application"
               description="I developed a Job Portal Web Application using the MERN stack, enabling secure user authentication, job posting and editing with role-based access control. The platform supports automatic login after registration, skill-based job filtering, and dynamic content visibility—public users see all jobs, while logged-in users see only their own posts."
