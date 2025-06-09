@@ -47,6 +47,17 @@ function Projects() {
             <ProjectCard
               imgPath={Employee}
               isBlog={false}
+              title="Job Posting Application"
+              description="I developed a Job Portal Web Application using the MERN stack featuring user authentication, job posting and editing, role-based access, search and skill-based filtering, and conditional job visibility based on login status."
+              ghLink="https://github.com/Vt221001/ktmediaAssingment"
+              demoLink="https://kvt.vedanshtiwari.tech"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Employee}
+              isBlog={false}
               title="Employee Management"
               description="I developed an Employee Management System for my IT company’s CRM, integrating real-time activity tracking to monitor productivity. It includes role-based access, task management, and an admin-employee chat system for smooth communication, showcasing my ability to build scalable and efficient systems for performance and workflow optimization."
               ghLink="https://github.com/Vt221001/employee_management"
