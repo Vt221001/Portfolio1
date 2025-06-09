@@ -48,7 +48,7 @@ function Projects() {
               imgPath={Employee}
               isBlog={false}
               title="Job Posting Application"
-              description="I developed a Job Portal Web Application using the MERN stack featuring user authentication, job posting and editing, role-based access, search and skill-based filtering, and conditional job visibility based on login status."
+              description="I developed a Job Portal Web Application using the MERN stack, enabling secure user authentication, job posting and editing with role-based access control. The platform supports automatic login after registration, skill-based job filtering, and dynamic content visibility—public users see all jobs, while logged-in users see only their own posts."
               ghLink="https://github.com/Vt221001/ktmediaAssingment"
               demoLink="https://kvt.vedanshtiwari.tech"
             />
